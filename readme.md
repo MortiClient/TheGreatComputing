@@ -8,7 +8,7 @@
 </p>
 
 ## C'est quoi ?
-### Je suis de vous présenter mon nouveau blog, c'est un blog codé entièrement sur Laravel :D
+### Je suis fier de vous présenter mon nouveau blog, c'est un blog codé entièrement sur Laravel :D
 
 TheGreatComputing est un blog laravel sur la sécurité informatique, programmation et les systemes d'exploitation
 
