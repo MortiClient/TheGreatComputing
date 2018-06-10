@@ -1,0 +1,250 @@
+html {
+	position: relative;
+    min-height: 100%;
+}
+
+#fond_menu {
+	background: #2f2f2f;
+	height: 70px;
+	width: 100%;
+	margin-top: -17px;
+}
+
+#menu {
+	padding-top: 35px;
+}
+
+#menu ul li {
+	display: inline-block;
+	float: right;
+}
+
+#menu ul li a {
+	padding: 0px 9px;
+	font-size: 14px;
+	list-style: none;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#menu ul li a:hover {
+	color: #ededed;
+}
+
+.title-website {
+	color: #fff;
+	font-size: 25px;
+	position: absolute;
+	padding: 10px 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+footer {
+	background: #2f2f2f;
+	position:relative;
+	width:100%;
+	height: 30px;
+	margin-top: 40px;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+	padding: 0px 5px;
+}
+
+.nouveaute-1 {
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.nouveaute-2 {
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+ 
+.nouveautes {
+	margin-top: -25px;
+}
+
+#button-last-articles {
+	display: none;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.img-icon-hamburger {
+	display: none;
+	float: right;
+}
+
+.information-inscription {
+	padding: 20px;
+}
+
+.button-submit {
+	background: #28a745;
+	color: #fff;
+}
+
+.button-submit-search {
+	background: #0069d9;
+	color: #fff;
+}
+
+.button-all-more {
+	background: #0069d9;
+	color: #fff;
+}
+
+.button-suppress {
+	background: #a94442;
+	color: #fff;
+}
+
+#button-last-articles:hover {
+	color: #fff;
+	background: #004E9F;
+}
+
+
+input[value="S'inscrire"]:hover {
+	color: #fff;
+	background: #128C2D;
+}
+
+input[value="Se connecter"]:hover {
+	color: #fff;
+	background: #128C2D;
+}
+
+input[value="Rechercher"]:hover {
+	color: #fff;
+	background: #004E9F;
+}
+
+input[value="Supprimer l'article"]:hover {
+	color: #fff;
+	background: #5D0B09;
+}
+
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 768px) {
+
+	#menu {
+		visibility: hidden;
+		background: #2f2f2f;
+		position: absolute;
+		height: 200px;
+		width: 100%;
+		margin-top: 65px;
+	}
+
+	#menu ul {
+		display: flex;
+		margin-top: -30px;
+		flex-direction: column-reverse;
+		font-size: 19px;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.title-website {
+		font-size: 17px;
+		margin: 25px auto;
+	}
+
+	.title-presentation {
+		font-size: 17px;
+	}
+
+	.news-infos {
+		text-align: center;
+		margin: 0px -30px;
+		font-size: 19px;
+	}
+
+	.last-articles {
+		display: none;
+	}
+
+	footer {
+		height: 50px;
+	}
+
+	.content-homepage {
+		margin-top: -50px;
+	}
+
+	.no-articles-found {
+		display: none;
+	}
+
+	#button-last-articles {
+		display: block;
+	}
+
+	.img-icon-hamburger {
+		display: block;
+		margin: 29px 10px;
+		cursor: pointer;
+	}
+
+	nav#menu.active {
+	 visibility: visible;
+	}
+
+	.text-information-inscription {
+		font-size: 10px;
+	}
+
+	.information-inscription {
+		padding: 3px;
+		margin-top: -5px;
+	}
+
+	.title-information-inscription {
+		font-size: 15px;
+	}
+
+	#img-cross-icon {
+		margin-right: -10px;
+	}
+
+	.content-last-article {
+		display: none;
+	}
+
+	.content-buttons-action {
+		flex-wrap: wrap;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+	.nouveautes {
+		width: 100%;
+	}
+
+	.last-articles {
+		display: none;
+	}
+
+	.no-articles-found {
+		display: none;
+	}
+
+	.content-last-article {
+		display: none;
+	}
+
+	#menu {
+		display: none;
+	}
+
+}
