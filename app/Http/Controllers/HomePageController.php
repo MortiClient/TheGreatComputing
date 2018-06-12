@@ -13,7 +13,7 @@ class HomePageController extends Controller
     	$article = Articles::orderBy('created_at', 'DESC')->first();
     	$membres = Membres::all()->first();
 
-    	return view('/', [
+    	return view('/accueil', [
     		'article' => $article,
     		'membres' => $membres,
     	]);
