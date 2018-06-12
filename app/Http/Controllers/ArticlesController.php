@@ -112,7 +112,7 @@ class ArticlesController extends Controller
     public function edit($id)
     {
 
-        $articles = Articles::all()->where('id', $id)->first();
+        $article = Articles::find($id);
 
         return view('edition-profil', [
             'articles' => $articles,
