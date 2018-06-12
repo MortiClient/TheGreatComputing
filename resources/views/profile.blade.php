@@ -42,6 +42,12 @@
 					<span class="glyphicon glyphicon-king" data-toggle="tooltip" title="Administrateur"></span>
 				@endif
 			</h4>
+			
+			@if(Auth::user()->id == $membres->id)
+			
+			<h4><span style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;"><span class="glyphicon glyphicon-envelope"></span> Email:</span>{{ $membres->email }}</h4>
+			
+			@endif
 
 			@if($membres->is_redactor)
 				<h4><span style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;">Role:</span> Rédacteur</h4>
@@ -52,7 +58,7 @@
 			@endif
 
 				</div>
-
+email
 			<br>
 			<br>
 
