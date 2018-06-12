@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/accueil', 'HomePageController@index');
+Route::get('/', 'HomePageController@index');
 
 Route::view('/articles', 'articles');
+Route::view('/create_articles', 'create_articles');
 Route::view('/last-article', 'last-article');
 
 
