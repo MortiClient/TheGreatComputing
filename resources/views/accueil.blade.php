@@ -15,7 +15,7 @@
         <div class="content-homepage">
           
           <h3 style="font-family: 'Montserrat', sans-serif;text-align: center;margin-top: 5px;" class="title-presentation">Bienvenue dans TheGreatComputing.fr.nf</h3>
-          <p style="text-align: center;">Bienvenues dans mon blog sur la programmation, sécurité informatique et les systèmes d'exploitation</p>
+          <p style="text-align: center;">Bienvenue dans mon blog sur la programmation, sécurité informatique et les systèmes d'exploitation</p>
 
 
           @if(auth()->check()) 
