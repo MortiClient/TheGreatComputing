@@ -43,8 +43,6 @@
 				@endif
 			</h4>
 
-			<h4><span style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;"><span class="glyphicon glyphicon-envelope"></span> Email:</span> {{ $membres->email }}</h4>
-
 			@if($membres->is_redactor)
 				<h4><span style="font-family: 'Roboto Condensed', sans-serif;font-weight: bold;">Role:</span> Rédacteur</h4>
 			@elseif($membres->is_admin)
