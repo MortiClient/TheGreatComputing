@@ -88,7 +88,7 @@
 
          <div class="nouveaute-2"  style="padding: 10px">
               <h4 style="font-family: 'Source Sans Pro', sans-serif;">TheGreatComputing open-source ?</h4>
-              <p>En effet le site est open-source c'est un projet Laravel <br> un tres bon framework php pour moi... <br><a href="https://github.com/mortim59/" target="_blank">Cliquez ici pour consulter le github</a></p>
+              <p>En effet le site est open-source c'est un projet Laravel <br> un tres bon framework php pour moi... <br><a href="https://github.com/mortim59/TheGreatComputing" target="_blank">Cliquez ici pour consulter le github</a></p>
          </div>
 
   
