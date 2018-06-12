@@ -31,7 +31,7 @@ class CompteController extends Controller
 
     	auth()->logout();
 
-    	return redirect('/accueil');
+    	return redirect('/');
     }
 
 
