@@ -58,7 +58,7 @@
 			@endif
 
 				</div>
-email
+
 			<br>
 			<br>
 
