@@ -177,10 +177,4 @@ class ArticlesController extends Controller
 
         return back();
     }
-
-
-        public function __construct() {
-
-         $this->middleware('Auth')->only(['create', 'store', 'edit', 'destroy']);
-    }
 }
