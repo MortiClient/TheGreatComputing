@@ -12,3 +12,5 @@
 
 TheGreatComputing est un blog laravel sur la sécurité informatique, programmation et les systemes d'exploitation
 
+<img src="http://thegreatcomputing.fr.nf/storage/miniatures/LsH8iBP5AXaVHyfYVWjUEe6cfEz4s5GLxWy5uvGZ.png">
+
