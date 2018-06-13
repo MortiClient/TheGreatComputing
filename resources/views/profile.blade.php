@@ -96,7 +96,7 @@
 			<br>
 
 
-			@if(auth()->check())
+			@if(Auth::check())
 
 				@if(Auth::user()->id == $membres->id)
 					<h3 style="font-family: 'Raleway', sans-serif;">Mes articles:</h3>
